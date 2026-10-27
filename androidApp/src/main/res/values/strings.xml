@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AccessWebPageExample</string>
+    <string name="web_page_title">Web Page Text</string>
+    <string name="web_page_url_label">URL</string>
+    <string name="web_page_selector_label">CSS selector</string>
+    <string name="web_page_extract">Extract</string>
+    <string name="web_page_result_label">Extracted text</string>
+    <string name="web_page_result_placeholder">Nothing extracted yet</string>
+    <string name="web_page_unknown_error">Something went wrong</string>
+    <string name="selector_preset_title">Page title</string>
+    <string name="selector_preset_headings">Main headings</string>
+    <string name="selector_preset_subheadings">Subheadings</string>
+    <string name="selector_preset_paragraphs">Paragraphs</string>
+    <string name="selector_preset_links">Links</string>
+    <string name="selector_preset_whole_page">Whole page</string>
+</resources>

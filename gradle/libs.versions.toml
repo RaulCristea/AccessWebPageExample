@@ -1,0 +1,37 @@
+[versions]
+agp = "9.4.1"
+android-compileSdk = "37"
+android-minSdk = "24"
+android-targetSdk = "37"
+androidx-activity = "1.13.0"
+androidx-composeBom = "2026.09.00"
+androidx-lifecycle = "2.11.0"
+kotlin = "2.4.20"
+kotlinx-coroutines = "1.11.0"
+ksoup = "0.2.6"
+ktor = "3.6.0"
+
+[libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktor" }
+ksoup = { module = "com.fleeksoft.ksoup:ksoup", version.ref = "ksoup" }
+lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-lifecycle-viewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtimeCompose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-composeBom" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-compose-uiTooling = { module = "androidx.compose.ui:ui-tooling" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
